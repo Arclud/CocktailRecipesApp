@@ -29,7 +29,6 @@ jobs:
           java-version: 11
           distribution: adopt
 
-      - name: Build app and run unit tests
-        uses: gradle/gradle-command-action@v2
-        with:
-          arguments: assembleStandardRelease testStandardReleaseUnitTest
+      - name: Build app
+        run: |
+          ./gradlew assembleDebug --stacktrace
