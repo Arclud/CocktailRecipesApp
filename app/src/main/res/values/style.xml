@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="fontFamily">@font/roboto</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="android:statusBarColor">@color/colorAppBackground</item>
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:background">@color/colorToolbarBackground</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+</resources>
