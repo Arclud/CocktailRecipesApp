@@ -6,4 +6,6 @@
     <string name="tab_favorites">Favorites</string>
     <string name="tab_about">About</string>
 
+    <string name="search_view_hint">Search…</string>
+
 </resources>
