@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CoctailRecipes</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_filter">Filter by…</string>
+    <string name="tab_favorites">Favorites</string>
+    <string name="tab_about">About</string>
+
 </resources>
