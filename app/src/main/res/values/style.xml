@@ -28,4 +28,22 @@
         <item name="queryHint">@string/search_view_hint</item>
     </style>
 
+
+    <style name="RegularTextBody" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/colorRegularText</item>
+        <item name="android:textSize">@dimen/font_16</item>
+    </style>
+
+    <style name="RegularTextBody.Message">
+        <item name="android:textColor">@color/colorPaleText</item>
+    </style>
+
+    <style name="RegularTextBody.Message.LabelNotFound">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:drawableTop">@drawable/ic_drinks</item>
+        <item name="android:drawablePadding">@dimen/default_margin_10</item>
+    </style>
+
 </resources>
